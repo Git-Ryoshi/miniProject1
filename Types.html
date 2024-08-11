@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Keybz</title>
+            <link rel="icon" href="Keybmages/Keybz Logo.png">
+            <link rel="stylesheet" href="Types.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    </head>
+                     <!-- Script Code for Button that going back from the top -->
+             <button onclick="topFunction()" id="myBtn" title="Go to top"> Back on Top <i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+             <script>
+                 var mybutton = document.getElementById("myBtn");  
+ 
+                 window.onscroll = function() {scrollFunction()};
+                 
+                 function scrollFunction() 
+                 {
+                 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                     mybutton.style.display = "block";
+                 } else {
+                     mybutton.style.display = "none";
+                 }
+                 }
+                 
+                 function topFunction() {
+                 document.body.scrollTop = 0;
+                 document.documentElement.scrollTop = 0;
+                 }
+             </script>
+    <body>
+
+        <header>
+            <a href="MainPage.html" class="Logo">Keybz</a>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Types.html">Types</a></li>
+                    <li><a href="Parts.html">Parts</a></li>
+                    <li><a href="Switch&Key.html">Switches&KeyCaps</a></li>
+                    <li><a href="AboutUs.html">AboutUs</a></li>
+                    <li><a href="ContactUs.html">Contacts</a></li>
+                </ul>
+        </header>
+                <script type="text/javascript">
+                    window.addEventListener("scroll", function(){
+                        var header = document.querySelector("header");
+                        header.classList.toogle("sticky",window.scroll > 0);})
+                </script>
+            <div class="container">  
+                <div class="image-container">  
+                    <h1> Before we go into the various layouts, a short note on naming conventions:  </h1>
+                    <h3> Certain keyboard layouts, such as the 1800 Keyboard and Tenkeyless (TKL), have particular names, however keyboard sizes 
+                        are often expressed in percentages. An 75%, 65%, 40%, and so on refer to the number of keys in comparison to a 
+                        full size (100%). 
+                    </h3>
+                        <br> <hr> <br>
+                    <h2 > Types of Keyboard </h2>
+
+                    <h3> 100% Mechanical Keyboard </h3>
+                    <img src="Keybmages/100.png" class="IMGR">
+                    <p class="Lbox"> 
+                        17.5" x 6" are typical dimensions, The number of keys is 104-108. Keys omitted: none.
+                        Full-size keyboard layouts include everything: alphanumeric keys, a number pad, navigation buttons (Insert, Home, and so on), 
+                        arrow keys, the top function row (F1-F12), and modifiers (Shift, Ctrl) in their typical grouped placement. This conventional 
+                        keyboard layout is popular, widely available. Full-size keyboards are ideal for anyone who requires a diverse set of keys at their disposal, whether for gaming, work, or 
+                        simply browsing the internet. They can provide a wide range of programmable key possibilities and are simple to use because, 
+                        with the exception of the conventional keys, none of the keys are on a lower layer.
+                    </p>
+                    <h3> 1800 Mechanical Keyboard </h3>
+                    <img src="Keybmages/1800.jpg" class="IMGR">
+                    <p class="Lbox"> 
+                        15.5" x 7" is a typical size.  The number of keys is 104-108. Keys omitted none,
+                        1800 keyboard layouts are theoretically full-sized because no keys are missing, only reorganized and condensed. 
+                        The arrow keys are jammed between the navigation keys and the number pad, and the entire cluster is pushed closer to the 
+                        main set of alphanumeric keys. 1800 keyboards typically take up less horizontal space than regular full-size keyboards but 
+                        are slightly higher as a result of this reconfiguration. 1800 small keyboard layouts are similar to full-sized layouts 
+                        except that the number pad and the rest of the keyboard are squeezed together to conserve space. These keyboards are 
+                        slightly narrower, making them smaller and more compact. This makes the keyboard easy to pack and transport. Furthermore, 
+                        the tiny full-sized layouts do not sacrifice any keys, making it exceptionally easy and comfortable to text on.
+                    </p>
+                    <h3> Tenkeyless (TKL) Mechanical Keyboard </h3>
+                    <img src="Keybmages/TKL.jpg" class="IMGR">
+                    <p class="Lbox"> 
+                        14.1" x 5.35" is a typical size. The number of keys is 87. Number Pad Is Missing Keys. A more compact keyboard also frees 
+                        up more work space, allowing you to write notes into a notepad on the side of your keyboard without feeling confined by a l
+                        ack of space. Furthermore, because your mouse will be considerably closer to your hand when typing, you will have to travel
+                         much less to reach for it. Tenkeyless keyboards retain the arrow keys, home cluster, and function keys, allowing you to 
+                         game and type easily. Because most keyboards include a small TKL equivalent, you'll be able to locate a variety of 
+                         tenkeyless mechanical keyboards for sale.
+                    </p>
+                    <h3> 75% Mechanical Keyboard </h3>
+                    <img src="Keybmages/75.png" class="IMGR">
+                    <p class="Lbox"> 
+                        12.75" x 5" is a typical size. The number of keys is 82-84. Number Pad and some navigation keys are missing. The 75% keyboard 
+                        is a simplified version of Tenkeyless. All keys are grouped together into a single cluster, and a few more navigation keys 
+                        are eliminated. This is the smallest size that still allows you to use the F1-F12 keys. 75% of keyboards have a unique 
+                        design. With the arrow keys and home cluster placed immediately next to each other with the home cluster aligned 
+                        vertically to save space. This enables everything to be packed in tightly and snugly. Because there are fewer 75% 
+                        keyboards on the market, your options will be limited.
+                    </p>
+                    <h3> 65% Mechanical Keyboard </h3>
+                    <img src="Keybmages/65.jpg" class="IMGR">
+                    <p class="Lbox"> 
+                        12.6" x 4.25" is a typical size.  The number of keys is 67-68.  Keys omitted are Key, Function Row (F1-F12), Number Pad, 
+                        and Some Navigation Keys 65% keyboards are similar to 75% keyboards, except that the function row is missing, and the ESC 
+                        key frequently replaces the key. If you don't need a number pad or a function row, this is a decent size for you. The 
+                        smallest you can go while still having distinct arrow keys is 65%, which offers the advantage of many prebuilt 
+                        possibilities. These are exceedingly portable, lightweight, and quite useful. Some people may find the lack of a home 
+                        cluster or function row to be a significant disadvantage, while others may be unaffected. It everything comes down to 
+                        personal taste. Because they feature arrow keys and can be beneficial for moving across a page while typing, 65% of 
+                        keyboards are still a perfect size to utilize for gaming.
+                    </p>
+                    <h3> 60% Mechanical Keyboard </h3>
+                    <img src="Keybmages/60.jpg" class="IMGR">
+                    <p class="Lbox"> 
+                        11.5" x 4" is a typical size.  The number of keys is 61. Arrow Keys, Navigation Keys, Key, Function Row (F1-F12), Number 
+                        Pad are all missing. Most 60% of keyboards lack arrow and navigation keys, which will have a greater impact on your 
+                        keyboard usage than you might anticipate. This layout frequently employs function layers. A 60% keyboard may be out of 
+                        most people's comfort zone; the lack of arrow keys, a home cluster, a number pad, and a function row may make typing feel 
+                        like an entirely new skill to acquire. People who buy and utilize 60% keyboards should be aware of what they are getting 
+                        themselves into before making a purchase. Some individuals won't notice a difference, but those who wish to experiment 
+                        with the size should be aware.
+                    </p>
+                    <h3> 40% Mechanical Keyboard </h3>
+                    <img src="Keybmages/40.jpg" class="IMGR">
+                    <p class="Lbox"> 
+                        11" x 3.15" is a typical size.  The number of keys is 49. Number Pad, Function Row (F1-F12), Arrow Keys, Navigation Keys, 
+                        Many Modifier Keys, Keyboard. The number of keys available on a 40% keyboard will vary greatly based on the model and the 
+                        demands of the user. On a keyboard this compact, many keys are reshaped, deleted, or combined. Function layers and key 
+                        combinations are required. We wouldn't recommend this keyboard size unless you're prepared to put in the time to plan out 
+                        and master your function layers. If that seems like your kind of challenge, you'll probably appreciate the highly tailored 
+                        experience, having all keys within reach, and the ultra-small footprint.
+                    </p>
+                    <br> <hr> <br>
+
+                    <h2> Pros and cons of mechanical keyboards </h2>
+                    <h3> Here are a few pros and cons of mechanical keyboards: </h3>
+                    <section>  
+                        <h3> PROS </h3>
+                        <ul>
+                            <li class="tsk"> They last longer than membrane keyboards </li>
+                            <li class="tsk"> They're faster and easier to type </li>
+                            <li class="tsk"> They're more responsive to keystrokes </li>
+                            <li class="tsk"> They provide stronger feedback while typing </li>
+                            <li class="tsk"> They're more precise </li>
+                            <li class="tsk"> They're more comfortable </li>
+                        </ul>
+                        <br>
+                        <h3> CONS </h3>
+                        <ul class="P&C">
+                            <li class="tsk"> They’re more expensive than membrane or rubber dome keyboards </li>
+                            <li class="tsk"> They’re heavier than membrane keyboards</li>
+                            <li class="tsk"> They’re louder than membrane keyboards </li>
+                            <li class="tsk"> They’re harder to clean as the keys are taller with bigger gaps between each </li>
+                            <li class="tsk"> They can be more easily damaged with spills from liquids and food particles </li>
+                            <li class="tsk"> There is a huge selection so choosing the right one can be an overwhelming experience. </li>
+                        </ul>
+                        <br> <hr> <br>
+                        <h2> Some popular brands of Mechnical Keyboards: </h2>
+                        <section class="brands">
+                            <br><br>
+                            <a href="https://en.akkogear.com" target="_blank"><img src="Keybmages/akko.png" class="akko"></a>
+                            <a href="https://cherryamericas.com" target="_blank"><img src="Keybmages/Cherry.png" class="akko"></a>
+                            <a href="https://www.keychron.com" target="_blank"><img src="Keybmages/keychron.png" class="keychron"></a>
+                            <a href="https://rakk.ph/" target="_blank"><img src="Keybmages/Rakk.png" class="rakk"></a>
+                            <a href="https://rkgamingstore.com" target="_blank"><img src="Keybmages/RK.png" class="rk"></a>
+                        </section>
+                    </section>
+                </div>
+            </div>
+                            <!--Footer-->
+                            <footer class="foot">
+                                <p>Keybz Copyright @2022 Keybz | All Rights Reserved </p>
+                            </footer>
+
+    </body>
+</html>
