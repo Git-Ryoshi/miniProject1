@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Karla:wght@300&display=swap");
 
-*	/* This is for defaulting my template */ {
+*	/* Set the default margin and padding to zero */ {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,8 +9,6 @@
 body /* This is for my whole website background */ {
   background: #252525;
 }
-
-/*===========================================*/
 
 /* This is CSS for Navigationbar  */
 header /* This is for header or navbar function */ {
@@ -22,7 +20,7 @@ header /* This is for header or navbar function */ {
   background-color: rgb(0, 0, 0);
   justify-content: space-between;
   align-items: center;
-  transition: 0.6s;
+  transition: 0.15s;
   padding: 30px 100px;
   border-radius: 10px;
   z-index: 5;
@@ -35,7 +33,7 @@ header .Logo {
   text-decoration: none;
   letter-spacing: 2px;
   font-size: 20px;
-  transition: 0.6s;
+  transition: 0.15s;
 }
 
 header ul {
@@ -57,170 +55,9 @@ header ul li a {
   color: orange;
   letter-spacing: 2px;
   font-weight: 500px;
-  transition: 0.6s;
-}
-
-header li:hover {
-  background-color: orange;
-  border-radius: 20px;
+  transition: 0.15s;
 }
 
 header a:hover {
   color: white;
 }
-
-/*===========================================*/
-
-/* This is for Container Contents */
-.container {
-  width: 98%;
-  padding: 10px;
-  margin: auto;
-  margin-top: 105px;
-  margin-bottom: 10px;
-  overflow: hidden;
-  text-align: justify;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.8);
-  border-radius: 10px;
-  z-index: 4;
-}
-
-.container h1 {
-  text-align: center;
-  font-weight: bolder;
-  color: orange;
-  text-shadow: 0px 0px 5px white;
-}
-
-.container h2 {
-  text-align: left;
-  color: orange;
-  text-shadow: 0px 0px 30px white;
-}
-
-.container h3 {
-  color: orange;
-  font-size: x-large;
-  text-align: center;
-  margin: 20px;
-}
-
-.container h3:hover {
-  text-shadow: 0px 0px 10px white;
-}
-
-.container hr {
-  height: 5px;
-  background-color: orange;
-}
-
-.container a {
-  text-decoration: none;
-  color: orange;
-}
-/*===========================================*/
-/* Secion for Paragraph inside of the container */
-
-.container .Rbox {
-  width: 700px;
-  margin: 20px;
-  margin-top: 100px;
-  float: right;
-  padding: 10px;
-}
-
-.container .Lbox {
-  width: 700px;
-  margin: 20px;
-  float: left;
-  padding: 10px;
-}
-
-.container .Mbox {
-  align-items: center;
-  margin: 20px;
-}
-
-.container .Youtube {
-  border: 5px solid orange;
-  padding: 2px;
-  margin-left: 100px;
-}
-
-/*===========================================*/
-/* This is for image containers*/
-.image-container {
-  margin: 0px;
-  padding: 5px;
-}
-
-.image-container .Image1 {
-  width: 400px;
-  margin-left: 150px;
-  margin-top: -50px;
-  padding: 0%;
-  border-radius: 20%;
-}
-
-.image-container .Image2 {
-  width: 300px;
-  margin: 20px;
-  margin-left: 150px;
-  margin-top: 30px;
-  padding: 0%;
-  border: 4px solid black;
-  box-shadow: 5px 5px 5px orange;
-}
-
-.Image1:hover {
-  transition: 1s;
-  transform: scale(1.3);
-  z-index: 0;
-}
-
-.Image2:hover {
-  transition: 1s;
-  transform: scale(1.3);
-  z-index: 0;
-}
-
-/*===========================================*/
-
-/* This is for Java Script Buttons CSS format */
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 60px;
-  right: 20px;
-  z-index: 99;
-  font-size: 14px;
-  border: none;
-  outline: none;
-  background-color: orange;
-  color: black;
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 30px;
-}
-
-#myBtn:hover {
-  background-color: #777;
-  transition-duration: 0.5s;
-}
-/*===========================================*/
-
-/*Footer*/
-.foot {
-  padding: 10px;
-  text-align: center;
-  background-color: black;
-}
-.foot p {
-  opacity: 1;
-  font-size: 20px;
-  font-weight: bolder;
-  text-align: center;
-  color: orange;
-}
-/*===========================================*/
