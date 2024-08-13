@@ -1,224 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Karla:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Karla:wght@300&display=swap");
 
-*	/* This is for defaulting my template */
-{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+*	/* Set the default margin and padding to zero */ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body /* This is for my whole website background */
-{
-	background: linear-gradient(to top, #ff9900 0%, #00ccff 100%);
+body /* This is for my whole website background */ {
+  background: #252525;
 }
-	
-
-
-/*===========================================*/
 
 /* This is CSS for Navigationbar  */
-header /* This is for header or navbar function */
-{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-	background-color: rgb(0, 0, 0);
-    justify-content: space-between;
-    align-items: center;
-    transition: 0.6s;
-    padding: 30px 100px;
-	border-radius: 10px;
-	z-index: 5;
+header /* This is for header or navbar function */ {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.15s;
+  padding: 30px 100px;
+  z-index: 5;
 }
 
-header .Logo
-{
-    position: relative;
-    font-weight: 700;
-    color: orange;
-    text-decoration: none;
-    letter-spacing: 2px;
-	font-size:20px;
-    transition: 0.6s;
+header .Logo {
+  position: relative;
+  font-weight: 700;
+  color: orange;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 20px;
+  transition: 0.15s;
 }
 
-header ul
-{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-header ul li
-{
-    position: relative;
-    list-style: none;
+header ul li {
+  position: relative;
+  list-style: none;
 }
 
-header ul li a
-{
-    position: relative;
-    margin: 0 15px;
-    text-decoration: none;
-    color: orange;
-    letter-spacing: 2px;
-    font-weight: 500px;
-    transition: 0.6s;
+header ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: orange;
+  letter-spacing: 2px;
+  font-weight: 500px;
+  transition: 0.15s;
 }
 
-header li:hover
-{
-	background-color:orange;
-	border-radius: 20px;
+header a:hover {
+  color: white;
 }
-
-header a:hover
-{
-	color:white;
-}
-/*===========================================*/
-
-/* This is for Container Contents */
-.container{
-	width: 98%;
-	margin:auto;
-	padding:20px;
-	overflow: hidden;
-	text-align: justify;
-	background-color: rgba(0,0,0,0.8);
-	border-radius: 10px;
-	margin-top: 105px;
-	margin-bottom: 40px;
-	color: #fff;
-}
-
-.AboutMe
-{
-	margin-left: 8%;
-	margin-top: 10%;
-}
-
-.AboutMe h1
-{
-	font-size: 50px;
-	color: white;
-	margin-bottom: 20px;
-}
-
-span
-{
-	color: orange;
-}
-
-/*===========================================*/
-/* Secion for Paragraph inside of the container */
-
-
-/*===========================================*/
-
-/* This is for Image Formatting */
-.image-container 
-{
-	width: 100%;
-	margin: 0px;
-	padding: 5px;
-}
-
-.images
-{
-	width: 40%;
-	height: 80%;
-	position: absolute;
-	bottom: 0;
-	right: 10px;
-}
-
-.images .shp
-{
-	height: 70%;
-	left: 35%;
-	position: absolute;
-	transform: translate(-50%);
-	transition: bottom 1s, left 1s;
-}
-
-
-.images .me
-{
-	height: 40%;
-	position: absolute;
-	right: 29%;
-	margin-top: 60px;
-}
-
-#Description
-{
-	text-align: justify;
-	padding: 10px;
-	padding-right: 500px;
-	margin-right: 150px;
-}
-
-#title
-{
-	color: orange;
-	margin-top: 190px;
-	text-align: center;
-	text-shadow: 0px 0px 4px white;
-}
-
-.obj
-{
-	display: block;
-}
-
-.tsk
-{
-	margin-left: 450px;
-}
-
-/*===========================================*/
-
-
-/* This is for Java Script Buttons CSS format */
-#myBtn 
-{
-	display: none;
-	position: fixed;
-	bottom: 60px;
-	right: 20px;
-	z-index: 99;
-	font-size: 14px;
-	border: none;
-	outline: none;
-	background-color: orange;
-	color: black;
-	cursor: pointer;
-	padding: 10px;
-	border-radius: 30px;
-}
-
-	#myBtn:hover 
-{
-	background-color: #777;
-	transition-duration: 0.5s;
-}
-/*===========================================*/
-
-/*Footer*/
-.foot
-{
-	text-align: center;
-}
-  .foot p 
-  {
-	opacity: 1.0;
-	font-size: 20px;
-	font-weight: bolder;
-	text-align: center;
-	color: black;	
-  }
-  /*===========================================*/
