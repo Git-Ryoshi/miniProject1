@@ -22,7 +22,6 @@ header /* This is for header or navbar function */ {
   align-items: center;
   transition: 0.15s;
   padding: 30px 100px;
-  border-radius: 10px;
   z-index: 5;
 }
 
