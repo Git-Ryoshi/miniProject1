@@ -1,22 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!--This is My header for my HTML Website-->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main Page</title>
-    <link rel="stylesheet" href="Navbar.css" />
+    <link rel="stylesheet" href="General.css" />
+    <link rel="stylesheet" href="mainPage.css" />
   </head>
-
   <body>
     <header>
+      <!-- CSS attributes are connected to General CSS -->
       <a href="MainPage.html" class="Logo">Keybz</a>
-      <ul>
-        <li><a href="Types.html">Types</a></li>
-        <li><a href="Parts.html">Parts</a></li>
-        <li><a href="AboutUs.html">AboutUs</a></li>
-      </ul>
+      <nav>
+        <ul>
+          <li><a href="Types.html">Types</a></li>
+          <li><a href="Parts.html">Parts</a></li>
+          <li><a href="AboutUs.html">About Us</a></li>
+        </ul>
+      </nav>
     </header>
+
+    <!-- CSS attributes are connected to mainPage CSS -->
+    <main class="keybzMainContent">
+      <section class="keybzTitleHolder">
+        <div class="keybzWelcomeTitle">
+          <p>Keybz</p>
+        </div>
+        <div class="keybzWelcomeDescription">
+          <p>
+            Howdy, Keyboard Enthusiasts! Welcome to Keybz, your ultimate
+            destination for mechanical keyboard insights. Here, you'll discover
+            the various structures that define these keyboards and get to know
+            the essential components that make them tick. Whether you're new or
+            experienced, we're here to help you explore and enjoy the world of
+            mechanical keyboards.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <section class="keybzSubContent">
+      <div class="keybzSubTitleHolder">
+        <div class="keybzSubDescription1">
+          <p>
+            Keyboards come in a range of layouts to fit different preferences
+            and uses, from the comprehensive full-size to more compact options
+            like tenkeyless (TKL) and 60% or 75% layouts. Each layout offers
+            unique features and advantages, catering to various needs and
+            workstyles. If you’re interested in exploring more about these
+            keyboard layouts, <a href="#">click here</a>.
+          </p>
+        </div>
+        <div class="keybzSubImage1">
+          <img
+            class="subImage-1"
+            src="/sourceImage/keybzSubIMage1.jpg"
+            alt="Image of Mechanical Keyboard"
+          />
+        </div>
+      </div>
+    </section>
   </body>
 </html>

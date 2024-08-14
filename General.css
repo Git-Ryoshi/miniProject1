@@ -8,34 +8,41 @@
   --accent: #f6bc3e;
 }
 
-*	/* Set the default margin and padding to zero */ {
+/* Set default margin, padding, and box-sizing for all elements */
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body /* This is for my whole website background */ {
+body {
+  /* Background and center alignment for the whole website */
   background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
 }
 
-/* This is CSS for Navigationbar  */
-header /* This is for header or navbar function */ {
+/* Styling for the navigation bar */
+header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  display: flex;
   background-color: var(--primary);
+  display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 50px;
   transition: 0.15s;
-  padding: 30px 100px;
   z-index: 5;
 }
 
+/* Logo styling in the navigation bar */
 header .Logo {
-  position: relative;
-  font-weight: 700;
+  font-weight: 800;
   color: var(--text);
   text-decoration: none;
   letter-spacing: 2px;
@@ -43,28 +50,27 @@ header .Logo {
   transition: 0.15s;
 }
 
+/* Navigation menu styling */
 header ul {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 header ul li {
-  position: relative;
   list-style: none;
 }
 
 header ul li a {
-  position: relative;
   margin: 0 15px;
   text-decoration: none;
   color: var(--text);
   letter-spacing: 2px;
-  font-weight: 500px;
+  font-weight: 600;
   transition: 0.15s;
 }
 
-header a:hover {
+/* Hover effect for navigation links */
+header ul li a:hover {
   color: var(--background);
 }
